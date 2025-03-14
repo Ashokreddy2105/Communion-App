@@ -1,75 +1,56 @@
-Communion Web App
+# Communion Web App
 
-Overview
-
+## Overview
 Communion is a web application built with Next.js that connects people of all faiths through events and community engagement. It allows users to explore, filter, and add events dynamically.
 
-Features
+## Features
+- **Home Page:** Introduces the platform with a navigation bar, hero section, and call-to-action button.
+- **Events Page:** Displays a list of events with filtering and dynamic event addition.
+- **Responsive UI:** Designed with Tailwind CSS for seamless viewing across devices.
+- **Next.js Features:** Utilizes server-side rendering, API routes, and routing.
 
-Home Page: Introduces the platform with a navigation bar, hero section, and call-to-action button.
+## Tech Stack
+- **Frontend:** Next.js, React, Tailwind CSS
+- **Backend:** Next.js API Routes
+- **Database:** JSON/Local State (Can be extended to use a database like Firebase or PostgreSQL)
+- **Hosting:** Vercel
 
-Events Page: Displays a list of events with filtering and dynamic event addition.
+## Installation & Setup
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/communion-web-app.git
+   ```
+2. Navigate to the project folder:
+   ```sh
+   cd communion-web-app
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Run the development server:
+   ```sh
+   npm run dev
+   ```
+5. Open `http://localhost:3000` in your browser.
 
-Responsive UI: Designed with Tailwind CSS for seamless viewing across devices.
-
-Next.js Features: Utilizes server-side rendering, API routes, and routing.
-
-Tech Stack
-
-Frontend: Next.js, React, Tailwind CSS
-
-Backend: Next.js API Routes
-
-Database: JSON/Local State (Can be extended to use a database like Firebase or PostgreSQL)
-
-Hosting: Vercel
-
-Installation & Setup
-
-Clone the repository:
-
-git clone https://github.com/yourusername/communion-web-app.git
-
-Navigate to the project folder:
-
-cd communion-web-app
-
-Install dependencies:
-
-npm install
-
-Run the development server:
-
-npm run dev
-
-Open http://localhost:3000 in your browser.
-
-Deployment
-
+## Deployment
 The app is deployed on Vercel. To deploy your own version:
+1. Push your project to GitHub.
+2. Connect the repository to Vercel.
+3. Deploy with default settings.
 
-Push your project to GitHub.
+## Challenges & Solutions
+- **Dynamic Filtering:** Implemented `useState` to handle event filtering without page reloads.
+- **Form Handling:** Used React Hook Form for controlled inputs and validation.
+- **Responsive Design:** Leveraged Tailwind CSS grid and flex utilities.
 
-Connect the repository to Vercel.
+## Live Demo
+🌍 **Live App:** [Deployed on Vercel](#) *(Replace with actual link)*
 
-Deploy with default settings.
+## Author
+Developed by **Ashok Kumar Reddy**.
 
-Challenges & Solutions
-
-Dynamic Filtering: Implemented useState to handle event filtering without page reloads.
-
-Form Handling: Used React Hook Form for controlled inputs and validation.
-
-Responsive Design: Leveraged Tailwind CSS grid and flex utilities.
-
-Live Demo
-
-🌍 Live App: Deployed on Vercel (https://communion-app-theta.vercel.app/)
-
-Author
-
-Developed by Nandyala Ashok kumar Reddy.
-
-License
-
+## License
 This project is licensed under the MIT License.
+
