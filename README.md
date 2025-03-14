@@ -49,7 +49,7 @@ The app is deployed on Vercel. To deploy your own version:
 🌍 **Live App:** [Deployed on Vercel](https://communion-app-theta.vercel.app/) 
 
 ## Author
-Developed by **Ashok Kumar Reddy**.
+Developed by **Nandyala Ashok Kumar Reddy**.
 
 ## License
 This project is licensed under the MIT License.
