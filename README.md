@@ -46,7 +46,7 @@ The app is deployed on Vercel. To deploy your own version:
 - **Responsive Design:** Leveraged Tailwind CSS grid and flex utilities.
 
 ## Live Demo
-🌍 **Live App:** [Deployed on Vercel](#) *(Replace with actual link)*
+🌍 **Live App:** [Deployed on Vercel](https://communion-app-theta.vercel.app/) 
 
 ## Author
 Developed by **Ashok Kumar Reddy**.
